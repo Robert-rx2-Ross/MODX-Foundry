@@ -1,0 +1,13 @@
+[[pdoMenu?
+    &parents=`0`
+    &showUnpublished=`0`
+    &showHidden=`0`
+    &hideSubMenus=`0`
+    &tplOuter=`foundryMainOuterTPL`
+    &tpl=`foundryMainRowTPL`
+    &tplInner=`foundrySubInnerTPL`
+    &tplInnerRow=`foundrySubRowTPL`
+    &parentClass=`has-dropdown`
+    &rowClass=``
+    &innerClass=`mega-menu`
+]]

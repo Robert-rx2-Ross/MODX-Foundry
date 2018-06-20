@@ -29,7 +29,7 @@
 [[If?
     &subject=`[[*template]]`
     &operator=`EQ`
-    &operand=`23`
+    &operand=`[[++article_template]]`
     &then=`<meta property="og:type" content="article" />`
     &else=``
 ]]
@@ -37,7 +37,7 @@
 [[If?
     &subject=`[[*template]]`
     &operator=`inarray`
-    &operand=`15,17,18,19,20,22,24,25,27,28`
+    &operand=`[[++website_templates]]`
     &then=`<meta property="og:type" content="website" />`
     &else=``
 ]]

@@ -1,0 +1,13 @@
+<script src="foundry/js/jquery.min.js"></script>
+<script src="foundry/js/bootstrap.min.js"></script>
+<script src="foundry/js/flickr.js"></script>
+<script src="foundry/js/flexslider.min.js"></script>
+<script src="foundry/js/lightbox.min.js"></script>
+<script src="foundry/js/masonry.min.js"></script>
+<script src="foundry/js/twitterfetcher.min.js"></script>
+<script src="foundry/js/spectragram.min.js"></script>
+<script src="foundry/js/ytplayer.min.js"></script>
+<script src="foundry/js/countdown.min.js"></script>
+<script src="foundry/js/smooth-scroll.min.js"></script>
+<script src="foundry/js/parallax.js"></script>
+<script src="foundry/js/scripts.js"></script>
