@@ -1,0 +1,17 @@
+blogFooterTitle {
+    "type": "text",
+    "template": "27",
+    "category": "Blog"
+}
+
+facebookURL {
+    "type": "URL",
+    "template": "27",
+    "category": "Foundry - Social Media"
+}
+
+instagramURL {
+    "type": "URL",
+    "template": "27",
+    "category": "Foundry - Social Media"
+}
