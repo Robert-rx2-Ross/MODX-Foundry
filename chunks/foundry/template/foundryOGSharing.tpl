@@ -1,6 +1,7 @@
 <meta property="og:title" content="[[+seoPro.title]]" />
-<meta property="og:url" content="[[++site_url]][[*uri]]" />
+<meta property="og:url" content="[[~[[*id]]? &scheme=`full`]]" />
 <meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image:type" content="image/jpeg" />
 [[If?
     &subject=`[[*sharingImage]]`
     &operator=`notempty`
@@ -24,5 +25,20 @@
     &operator=`notempty`
     &then=`<meta name="twitter:creator" content="[[*twitterCreator]]" />`
     &else=`<meta name="twitter:creator" content="[[#[[++admin_page_id]].tv.twitterCreator]]" />`
+]]
+[[If?
+    &subject=`[[*template]]`
+    &operator=`EQ`
+    &operand=`23`
+    &then=`<meta property="og:type" content="article" />`
+    &else=``
+]]
+
+[[If?
+    &subject=`[[*template]]`
+    &operator=`inarray`
+    &operand=`15,17,18,19,20,22,24,25,27,28`
+    &then=`<meta property="og:type" content="website" />`
+    &else=``
 ]]
 <meta property="og:site_name" content="[[++site_name]]" />
